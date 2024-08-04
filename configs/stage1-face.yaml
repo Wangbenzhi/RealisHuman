@@ -1,0 +1,66 @@
+image_finetune: True
+
+output_dir: "outputs"
+pretrained_model_path: "pretrained_models/RV/rv-5-1"
+pretrained_clip_path: "pretrained_models/DINO/dinov2"
+pretrained_vae_path: "pretrained_models/StableDiffusion/sd-1-5"
+
+pose_guider_kwargs:
+  conditioning_embedding_channels      : 320
+  block_out_channels                   : [ 16, 32, 96, 256 ]
+
+clip_projector_kwargs:
+  in_features:           1024
+  out_features:          768
+  bias:                  True
+
+zero_snr:                True
+train_cfg:               True
+snr_gamma:               5.0
+
+validation_kwargs:
+  guidance_scale:        3.0
+
+train_data:
+  dataset_class: PartChipDataset
+  args:
+    split: "train" 
+    root: "{PATH_TO_DATA}"
+    data_info_json:  "{YOUR_JSON}"
+    sample_size: [512, 512] 
+    clip_size: [224, 224] 
+    group: True
+
+validation_data:
+  dataset_class: PartChipDataset
+  args:
+    split: "val"
+    root: "/mnt/workspace/workgroup/wangbenzhi.wbz/RealisHuman/"
+    data_info_json:  "data/face_example/face_stage1_val.json"
+    sample_size: [512, 512] 
+    clip_size: [224, 224] 
+    group: True
+
+trainable_modules:
+  - "."
+
+unet_checkpoint_path: ""
+
+lr_scheduler:     "constant_with_warmup"
+learning_rate:    5e-5
+lr_warmup_steps:  5000
+train_batch_size: 5  
+validation_batch_size: 16 
+
+max_train_epoch:      -1
+max_train_steps:      100000
+checkpointing_epochs: -1
+checkpointing_steps:  10000
+checkpointing_steps_tuple:  [ ]
+
+
+global_seed: 42
+mixed_precision_training: True
+enable_xformers_memory_efficient_attention: True
+
+is_debug: False
