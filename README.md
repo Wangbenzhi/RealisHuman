@@ -16,7 +16,7 @@
     <a href="https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=en&oi=ao"><strong>Zhen Lei</strong></a>
     <br>
     <br>
-        <a href=""><img src='https://img.shields.io/badge/arXiv-RealisHuman-red' alt='Paper PDF'></a>
+        <a href="https://arxiv.org/abs/2409.03644"><img src='https://img.shields.io/badge/arXiv-RealisHuman-red' alt='Paper PDF'></a>
         <a href=''><img src='https://img.shields.io/badge/Project_Page-RealisHuman-green' alt='Project Page'></a>
     <br>
     <b>CASIA &nbsp; | &nbsp;  Alibaba</b>
@@ -242,13 +242,14 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  torchrun --nnodes=1 --nproc_per_node=8 \
 ## 🙏 Acknowledgements
 We would like to thank the [Animatediff](https://github.com/guoyww/AnimateDiff) and [AnimateAnyone]() teams for their awesome codebases.
 
-<!-- ## 🎓 Citation
-If you find this codebase useful for your research, please use the following entry.
+## Citation
 ```BibTeX
-@inproceedings{xu2023magicanimate,
-    author    = {Xu, Zhongcong and Zhang, Jianfeng and Liew, Jun Hao and Yan, Hanshu and Liu, Jia-Wei and Zhang, Chenxu and Feng, Jiashi and Shou, Mike Zheng},
-    title     = {MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model},
-    booktitle = {arXiv},
-    year      = {2023}
-} -->
-<!-- ``` -->
+@misc{wang2024realishumantwostageapproachrefining,
+      title={RealisHuman: A Two-Stage Approach for Refining Malformed Human Parts in Generated Images}, 
+      author={Benzhi Wang and Jingkai Zhou and Jingqi Bai and Yang Yang and Weihua Chen and Fan Wang and Zhen Lei},
+      year={2024},
+      eprint={2409.03644},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.03644}, 
+}
