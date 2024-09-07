@@ -32,15 +32,15 @@
 
 
 ## 📢 News 
-- [x] 🔥🔥🔥RealisHuman paper and project page released.
-- [x] 🚀🚀🚀Release training and inference code.
-- [ ] 🕙🕙🕙Release checkpoints.
+- [x] 🔥🔥🔥 RealisHuman paper and project page released.
+- [x] 🚀🚀🚀 Release training and inference code.
+- [x] 👏👏👏 Release RealisHuman checkpoints.
 
 
 ## 🏃‍♂️ Getting Started
 To begin, download the pretrained base models for [RV-5-1](https://huggingface.co/stablediffusionapi/realistic-vision-v51/tree/main), [DINOv2](https://huggingface.co/facebook/dinov2-base/tree/main), [StableDiffusion V1.5](https://huggingface.co/benjamin-paine/stable-diffusion-v1-5), and [StableDiffusion Inpainting](https://huggingface.co/benjamin-paine/stable-diffusion-v1-5-inpainting).
 
-Next, download our RealisHuman [checkpoints](xxx)[WIP].
+Next, your can download our RealisHuman checkpoints in [Baidu Cloud](https://pan.baidu.com/s/1aqbN3hsjxjn7zPKFoEChIg?pwd=8t2q) or [Google Drive Part1](https://drive.google.com/drive/folders/1N_6aZ3MBR2kbrz9F8Jgi65UPlIQ3j49r?usp=drive_link), [Google Drive Part2](https://drive.google.com/drive/folders/1UzGaGKTJZu9-oS9yzXAgjUh9-EfLXYss?usp=drive_link).
 
 Organize the base models and checkpoints as follows:
 ```bash
