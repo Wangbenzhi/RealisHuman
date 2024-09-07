@@ -38,7 +38,7 @@
 
 
 ## 🏃‍♂️ Getting Started
-To begin, download the pretrained base models for [RV-5-1](https://huggingface.co/stablediffusionapi/realistic-vision-v51/tree/main), [DINOv2](https://huggingface.co/facebook/dinov2-base/tree/main), [StableDiffusion V1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5), and [StableDiffusion Inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting/tree/main).
+To begin, download the pretrained base models for [RV-5-1](https://huggingface.co/stablediffusionapi/realistic-vision-v51/tree/main), [DINOv2](https://huggingface.co/facebook/dinov2-base/tree/main), [StableDiffusion V1.5](https://huggingface.co/benjamin-paine/stable-diffusion-v1-5), and [StableDiffusion Inpainting](https://huggingface.co/benjamin-paine/stable-diffusion-v1-5-inpainting).
 
 Next, download our RealisHuman [checkpoints](xxx).
 
