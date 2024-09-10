@@ -34,7 +34,8 @@
 ## 📢 News 
 - [x] 🔥🔥🔥 RealisHuman paper and project page released.
 - [x] 🚀🚀🚀 Release training and inference code.
-- [x] 👏👏👏 Release RealisHuman checkpoints.
+- [x] 👏👏👏 Now you can try more interesting AI video editing in [XunGuang](https://xunguang.damo-vision.com/) !!!
+- [x] 🕺🕺🕺 You may also be interested in our human dance video generation method [RealisDance](https://github.com/damo-cv/RealisDance).
 
 
 ## 🏃‍♂️ Getting Started
