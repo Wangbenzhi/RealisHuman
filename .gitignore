@@ -164,7 +164,6 @@ cython_debug/
 inputs
 outputs
 log
-datasets
 *.pyc
 samples
 pretrained_models/
