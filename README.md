@@ -32,6 +32,7 @@
 
 
 ## 📢 News 
+- [x] 🎉🎉🎉 The paper has been accepted at AAAI 2025.
 - [x] 🔥🔥🔥 RealisHuman paper and project page released.
 - [x] 🚀🚀🚀 Release training and inference code.
 - [x] 👏👏👏 Now you can try more interesting AI video editing in [XunGuang](https://xunguang.damo-vision.com/) !!!
