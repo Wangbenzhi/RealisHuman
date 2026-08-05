@@ -175,3 +175,12 @@ checkpoint/
 .conda
 .vscode
 *.onnx
+
+# Claude Code settings
+.claude/
+
+# Additional testing artifacts
+.pytest_cache/
+htmlcov/
+coverage.xml
+.coverage
